@@ -1,0 +1,58 @@
+body {
+    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.kotak {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 30px;
+    width: 100%;
+}
+
+h1 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-input {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    color: #777777;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.form-input:focus {
+    box-shadow: 0 0 5px #3a9bd9;
+    outline: none;
+}
+
+button#btn-kirim {
+    background: linear-gradient(to bottom, #5a94cf 0%, #3a7ebd 100%);
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    text-align: center;
+    transition: 0.3s;
+    width: 100%;
+}
+
+button#btn-kirim:hover {
+    background: linear-gradient(to bottom, #4a8cc7 0%, #2a6ebd 100%);
+}
